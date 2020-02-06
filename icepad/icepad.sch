@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:icepad-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -702,4 +703,19 @@ F 3 "~" V 6900 2250 50  0001 C CNN
 	1    6900 2250
 	1    0    0    -1  
 $EndComp
+$Comp
+L MCU_ST_STM32F0:STM32F042F6Px U?
+U 1 1 5E43D887
+P 3600 3000
+F 0 "U?" H 3600 2111 50  0000 C CNN
+F 1 "STM32F042F6Px" H 3600 2020 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 3100 2300 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 3600 3000 50  0001 C CNN
+	1    3600 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 3300 2    50   BiDi ~ 0
+USB_DM
+Text GLabel 4500 3400 2    50   BiDi ~ 0
+USB_DP
 $EndSCHEMATC
