@@ -1416,4 +1416,44 @@ Wire Wire Line
 	3250 4600 3250 4550
 Wire Wire Line
 	3250 4300 3250 4350
+Text GLabel 4600 5700 2    50   BiDi ~ 0
+DN
+Text GLabel 4600 5800 2    50   BiDi ~ 0
+DP
+Wire Wire Line
+	4600 5700 4400 5700
+Wire Wire Line
+	4400 5800 4600 5800
+Text GLabel 3200 6100 0    50   Input ~ 0
+Row_3_Key
+Text GLabel 3200 6000 0    50   Input ~ 0
+Row_2_Key
+Text GLabel 3200 5900 0    50   Input ~ 0
+Row_1_Key
+Text GLabel 3200 5800 0    50   Input ~ 0
+Row_0_Key
+Wire Wire Line
+	3200 5800 3400 5800
+Wire Wire Line
+	3200 5900 3400 5900
+Wire Wire Line
+	3200 6000 3400 6000
+Wire Wire Line
+	3200 6100 3400 6100
+Text GLabel 3200 5500 0    50   Input ~ 0
+Col_0_Key
+Text GLabel 4600 5300 2    50   Input ~ 0
+Col_2_Key
+Text GLabel 4600 5200 2    50   Input ~ 0
+Col_3_Key
+Text GLabel 3200 5400 0    50   Input ~ 0
+Col_1_Key
+Wire Wire Line
+	3200 5400 3400 5400
+Wire Wire Line
+	3400 5500 3200 5500
+Wire Wire Line
+	4600 5300 4400 5300
+Wire Wire Line
+	4600 5200 4400 5200
 $EndSCHEMATC
