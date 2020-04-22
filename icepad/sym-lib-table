@@ -1,6 +1,6 @@
 (sym_lib_table
-  (lib (name IES0105S03)(type Legacy)(uri /home/ben/icepad/icepad_custom_libs/IES0105S03.lib)(options "")(descr ""))
-  (lib (name Type-C)(type Legacy)(uri /home/ben/icepad/Type-C.pretty/Type-C.lib)(options "")(descr ""))
-  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/home/ben/icepad/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name IES0105S03)(type Legacy)(uri /home/ben/Kicad/icepad/icepad_custom_libs/IES0105S03.lib)(options "")(descr ""))
+  (lib (name Type-C)(type Legacy)(uri /home/ben/Kicad/icepad/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/home/ben/Kicad/icepad/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name icepad-rescue)(type Legacy)(uri ${KIPRJMOD}/icepad-rescue.lib)(options "")(descr ""))
 )
