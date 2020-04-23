@@ -101,6 +101,26 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_R_POT
+#
+DEF Device_R_POT RV 0 40 Y N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "Device_R_POT" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 4 0 1 0 45 0 90 20 90 -20 45 0 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R_Small
 #
 DEF Device_R_Small R 0 10 N N 1 F N
@@ -255,36 +275,6 @@ X VIN 3 -300 100 100 R 50 50 1 1 W
 X SW 4 300 100 100 L 50 50 1 1 w
 X EN 5 -300 0 100 R 50 50 1 1 I
 X NC 6 200 -100 100 L 50 50 1 1 N N
-ENDDRAW
-ENDDEF
-#
-# dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K
-#
-DEF dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K POT 0 0 Y Y 1 F N
-F0 "POT" -75 250 60 H V R CNN
-F1 "dk_Rotary-Potentiometers-Rheostats_P120PK-Y25BR10K" 275 -200 60 H V R CNN
-F2 "digikey-footprints:Potentiometer_P120PK-Y25BR10K" 200 200 60 H I L CNN
-F3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" 200 300 60 H I L CNN
-F4 "987-1710-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "P120PK-Y25BR10K" 200 500 60 H I L CNN "MPN"
-F6 "Potentiometers, Variable Resistors" 200 600 60 H I L CNN "Category"
-F7 "Rotary Potentiometers, Rheostats" 200 700 60 H I L CNN "Family"
-F8 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/tt-electronics-bi/P120PK-Y25BR10K/987-1710-ND/5957454" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "POT 10K OHM 1/20W PLASTIC LINEAR" 200 1000 60 H I L CNN "Description"
-F11 "TT Electronics/BI" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -275 200 375 -150 0 1 0 f
-P 2 0 1 0 -250 0 -350 0 N
-P 2 0 1 0 450 0 350 0 N
-P 4 0 1 0 -25 125 -50 150 50 150 0 100 F
-P 4 0 1 0 0 100 -25 125 25 125 0 100 N
-P 10 0 1 0 -249 1 -199 101 -99 -99 -49 1 1 101 101 -99 201 101 301 -99 351 1 451 1 N
-X ~ 4 300 -250 100 U 50 50 1 0 U
-X CCW 1 -450 0 100 R 50 50 1 1 P
-X S 2 0 350 200 D 50 50 1 1 P
-X CW 3 550 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

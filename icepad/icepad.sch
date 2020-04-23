@@ -1538,26 +1538,6 @@ Wire Wire Line
 Connection ~ 10800 2100
 Wire Wire Line
 	10800 2100 10800 3100
-$Comp
-L dk_Rotary-Potentiometers-Rheostats:P120PK-Y25BR10K POT1
-U 1 1 5EA30879
-P 5150 4050
-F 0 "POT1" V 4700 4150 60  0000 L CNN
-F 1 "P120PK-Y25BR10K" V 4800 4150 60  0000 L CNN
-F 2 "pot:Potentiometer_P120PK-Y25BR10K" H 5350 4250 60  0001 L CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 5350 4350 60  0001 L CNN
-F 4 "987-1710-ND" H 5350 4450 60  0001 L CNN "Digi-Key_PN"
-F 5 "P120PK-Y25BR10K" H 5350 4550 60  0001 L CNN "MPN"
-F 6 "Potentiometers, Variable Resistors" H 5350 4650 60  0001 L CNN "Category"
-F 7 "Rotary Potentiometers, Rheostats" H 5350 4750 60  0001 L CNN "Family"
-F 8 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 5350 4850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/tt-electronics-bi/P120PK-Y25BR10K/987-1710-ND/5957454" H 5350 4950 60  0001 L CNN "DK_Detail_Page"
-F 10 "POT 10K OHM 1/20W PLASTIC LINEAR" H 5350 5050 60  0001 L CNN "Description"
-F 11 "TT Electronics/BI" H 5350 5150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5350 5250 60  0001 L CNN "Status"
-	1    5150 4050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2800 5850 2600 5850
 Wire Wire Line
@@ -1574,92 +1554,84 @@ Text GLabel 2550 6050 0    50   Input ~ 0
 POT1
 Wire Wire Line
 	2550 6050 2800 6050
-$Comp
-L dk_Rotary-Potentiometers-Rheostats:P120PK-Y25BR10K POT2
-U 1 1 5EB05CCF
-P 6350 4050
-F 0 "POT2" V 5900 4150 60  0000 L CNN
-F 1 "P120PK-Y25BR10K" V 6000 4150 60  0000 L CNN
-F 2 "pot:Potentiometer_P120PK-Y25BR10K" H 6550 4250 60  0001 L CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 6550 4350 60  0001 L CNN
-F 4 "987-1710-ND" H 6550 4450 60  0001 L CNN "Digi-Key_PN"
-F 5 "P120PK-Y25BR10K" H 6550 4550 60  0001 L CNN "MPN"
-F 6 "Potentiometers, Variable Resistors" H 6550 4650 60  0001 L CNN "Category"
-F 7 "Rotary Potentiometers, Rheostats" H 6550 4750 60  0001 L CNN "Family"
-F 8 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 6550 4850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/tt-electronics-bi/P120PK-Y25BR10K/987-1710-ND/5957454" H 6550 4950 60  0001 L CNN "DK_Detail_Page"
-F 10 "POT 10K OHM 1/20W PLASTIC LINEAR" H 6550 5050 60  0001 L CNN "Description"
-F 11 "TT Electronics/BI" H 6550 5150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6550 5250 60  0001 L CNN "Status"
-	1    6350 4050
-	0    1    1    0   
-$EndComp
 Text GLabel 2550 5950 0    50   Input ~ 0
 POT2
 Wire Wire Line
 	2550 5950 2800 5950
-Text GLabel 6850 4050 2    50   Input ~ 0
+Text GLabel 6450 3650 2    50   Input ~ 0
 POT2
-Text GLabel 5650 4050 2    50   Input ~ 0
+Text GLabel 5450 3650 2    50   Input ~ 0
 POT1
-Wire Wire Line
-	5650 4050 5500 4050
-Wire Wire Line
-	6850 4050 6700 4050
+Text Notes 6000 3100 2    50   ~ 0
+Potentiometers
+$Comp
+L Device:R_POT RV1
+U 1 1 5EC75694
+P 5200 3650
+F 0 "RV1" H 5131 3696 50  0000 R CNN
+F 1 "R_POT" H 5131 3605 50  0000 R CNN
+F 2 "pot:RK09K1130A5R" H 5200 3650 50  0001 C CNN
+F 3 "~" H 5200 3650 50  0001 C CNN
+	1    5200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5EC75DC8
+P 6200 3650
+F 0 "RV2" H 6131 3696 50  0000 R CNN
+F 1 "R_POT" H 6131 3605 50  0000 R CNN
+F 2 "pot:RK09K1130A5R" H 6200 3650 50  0001 C CNN
+F 3 "~" H 6200 3650 50  0001 C CNN
+	1    6200 3650
+	1    0    0    -1  
+$EndComp
 $Comp
 L power:+3.3V #PWR0103
-U 1 1 5EB9A590
-P 5750 3350
-F 0 "#PWR0103" H 5750 3200 50  0001 C CNN
-F 1 "+3.3V" H 5765 3523 50  0000 C CNN
-F 2 "" H 5750 3350 50  0001 C CNN
-F 3 "" H 5750 3350 50  0001 C CNN
-	1    5750 3350
+U 1 1 5EC761F1
+P 5700 3350
+F 0 "#PWR0103" H 5700 3200 50  0001 C CNN
+F 1 "+3.3V" H 5715 3523 50  0000 C CNN
+F 2 "" H 5700 3350 50  0001 C CNN
+F 3 "" H 5700 3350 50  0001 C CNN
+	1    5700 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
-U 1 1 5EB9AB2B
-P 5750 4800
-F 0 "#PWR0104" H 5750 4550 50  0001 C CNN
-F 1 "GND" H 5755 4627 50  0000 C CNN
-F 2 "" H 5750 4800 50  0001 C CNN
-F 3 "" H 5750 4800 50  0001 C CNN
-	1    5750 4800
+U 1 1 5EC7665F
+P 5700 3950
+F 0 "#PWR0104" H 5700 3700 50  0001 C CNN
+F 1 "GND" H 5705 3777 50  0000 C CNN
+F 2 "" H 5700 3950 50  0001 C CNN
+F 3 "" H 5700 3950 50  0001 C CNN
+	1    5700 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 4800 6350 4800
+	5200 3800 5200 3900
 Wire Wire Line
-	6350 4800 6350 4650
+	5700 3950 5700 3900
 Wire Wire Line
-	5750 4800 5150 4800
+	5700 3900 5200 3900
 Wire Wire Line
-	5150 4800 5150 4650
-Connection ~ 5750 4800
+	5700 3900 6200 3900
 Wire Wire Line
-	5150 3600 5150 3350
+	6200 3900 6200 3800
+Connection ~ 5700 3900
 Wire Wire Line
-	5150 3350 5750 3350
+	6200 3500 6200 3400
 Wire Wire Line
-	5750 3350 6350 3350
+	6200 3400 5700 3400
 Wire Wire Line
-	6350 3350 6350 3600
-Connection ~ 5750 3350
-Text Notes 6000 3100 2    50   ~ 0
-Potentiometers
+	5700 3400 5700 3350
 Wire Wire Line
-	4900 4350 4900 4650
+	5200 3500 5200 3400
 Wire Wire Line
-	4900 4650 5150 4650
-Connection ~ 5150 4650
+	5200 3400 5700 3400
+Connection ~ 5700 3400
 Wire Wire Line
-	5150 4650 5150 4600
+	5450 3650 5350 3650
 Wire Wire Line
-	6100 4350 6100 4650
-Wire Wire Line
-	6100 4650 6350 4650
-Connection ~ 6350 4650
-Wire Wire Line
-	6350 4650 6350 4600
+	6350 3650 6450 3650
 $EndSCHEMATC

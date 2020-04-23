@@ -3,4 +3,5 @@
   (lib (name Type-C)(type Legacy)(uri /home/ben/Kicad/icepad/Type-C.pretty/Type-C.lib)(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "/home/ben/Kicad/icepad/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name icepad-rescue)(type Legacy)(uri ${KIPRJMOD}/icepad-rescue.lib)(options "")(descr ""))
+  (lib (name RK09K1130A5R)(type Legacy)(uri /home/ben/Kicad/icepad/icepad_custom_libs/pot.pretty/RK09K1130A5R.lib)(options "")(descr ""))
 )
