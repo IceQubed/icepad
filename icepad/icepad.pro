@@ -1,4 +1,4 @@
-update=Wed 22 Apr 2020 17:23:17 BST
+update=Thu 23 Apr 2020 12:26:57 BST
 version=1
 last_client=kicad
 [general]
@@ -238,7 +238,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.13
 TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -249,8 +249,19 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Key Matrix
-Clearance=0.2
+Clearance=0.13
 TrackWidth=0.75
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=POWER
+Clearance=0.13
+TrackWidth=1
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

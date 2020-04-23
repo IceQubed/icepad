@@ -146,19 +146,13 @@ F 3 "" H 8475 4075 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 1650 9400 2050
-Wire Wire Line
 	9250 2050 9400 2050
 Wire Wire Line
 	9750 2050 9900 2050
 Wire Wire Line
-	9900 2050 9900 1650
-Wire Wire Line
 	10250 2050 10400 2050
 Wire Wire Line
 	10750 2050 10900 2050
-Wire Wire Line
-	10900 2050 10900 1650
 Wire Wire Line
 	9250 3050 9400 3050
 Wire Wire Line
@@ -176,19 +170,11 @@ Wire Wire Line
 Wire Wire Line
 	9250 4050 9400 4050
 Wire Wire Line
-	9300 1650 9300 2100
-Wire Wire Line
 	9200 4100 9300 4100
 Wire Wire Line
 	9200 3100 9300 3100
 Wire Wire Line
 	9200 2100 9300 2100
-Wire Wire Line
-	9800 1650 9800 2100
-Wire Wire Line
-	10300 1650 10300 2100
-Wire Wire Line
-	10800 1650 10800 2100
 Wire Wire Line
 	9700 4100 9800 4100
 Wire Wire Line
@@ -276,21 +262,21 @@ Text GLabel 8500 3400 0    50   Input ~ 0
 Row_1_LED
 Text GLabel 8500 4400 0    50   Input ~ 0
 Row_2_LED
-Text GLabel 9400 1650 1    50   Input ~ 0
+Text GLabel 9400 1350 1    50   Input ~ 0
 Col_0_Key
-Text GLabel 9300 1650 1    50   Input ~ 0
+Text GLabel 9300 1350 1    50   Input ~ 0
 Col_0_LED
-Text GLabel 9800 1650 1    50   Input ~ 0
+Text GLabel 9800 1350 1    50   Input ~ 0
 Col_1_LED
-Text GLabel 9900 1650 1    50   Input ~ 0
+Text GLabel 9900 1350 1    50   Input ~ 0
 Col_1_Key
-Text GLabel 10300 1650 1    50   Input ~ 0
+Text GLabel 10300 1350 1    50   Input ~ 0
 Col_2_LED
-Text GLabel 10400 1650 1    50   Input ~ 0
+Text GLabel 10400 1350 1    50   Input ~ 0
 Col_2_Key
-Text GLabel 10800 1650 1    50   Input ~ 0
+Text GLabel 10800 1350 1    50   Input ~ 0
 Col_3_LED
-Text GLabel 10900 1650 1    50   Input ~ 0
+Text GLabel 10900 1350 1    50   Input ~ 0
 Col_3_Key
 Text GLabel 8500 5400 0    50   Input ~ 0
 Row_3_LED
@@ -425,27 +411,19 @@ Wire Wire Line
 Connection ~ 9300 3100
 Wire Wire Line
 	9300 2100 9300 3100
-Connection ~ 9300 2100
 Wire Wire Line
 	9400 2050 9400 3050
 Connection ~ 9400 2050
 Wire Wire Line
 	9800 2100 9800 3100
-Connection ~ 9800 2100
 Wire Wire Line
 	9900 2050 9900 3050
 Connection ~ 9900 2050
 Wire Wire Line
 	10300 2100 10300 3100
-Connection ~ 10300 2100
-Wire Wire Line
-	10400 1650 10400 2050
 Connection ~ 10400 2050
 Wire Wire Line
 	10400 2050 10400 3050
-Wire Wire Line
-	10800 2100 10800 3100
-Connection ~ 10800 2100
 Wire Wire Line
 	10900 2050 10900 3050
 Connection ~ 10900 2050
@@ -778,21 +756,21 @@ Wire Wire Line
 	4600 5700 4400 5700
 Wire Wire Line
 	4400 5800 4600 5800
-Text GLabel 3200 6100 0    50   Input ~ 0
-Row_3_Key
-Text GLabel 3200 6000 0    50   Input ~ 0
-Row_2_Key
-Text GLabel 3200 5900 0    50   Input ~ 0
-Row_1_Key
-Text GLabel 3200 5800 0    50   Input ~ 0
-Row_0_Key
-Text GLabel 3200 5500 0    50   Input ~ 0
-Col_0_Key
 Text GLabel 4600 5300 2    50   Input ~ 0
-Col_2_Key
+Row_3_Key
 Text GLabel 4600 5200 2    50   Input ~ 0
+Row_2_Key
+Text GLabel 4600 5100 2    50   Input ~ 0
+Row_1_Key
+Text GLabel 4600 5000 2    50   Input ~ 0
+Row_0_Key
+Text GLabel 4600 4600 2    50   Input ~ 0
+Col_0_Key
+Text GLabel 4600 4800 2    50   Input ~ 0
+Col_2_Key
+Text GLabel 4600 4900 2    50   Input ~ 0
 Col_3_Key
-Text GLabel 3200 5400 0    50   Input ~ 0
+Text GLabel 4600 4700 2    50   Input ~ 0
 Col_1_Key
 Wire Wire Line
 	4400 5900 4600 5900
@@ -1446,4 +1424,130 @@ Wire Wire Line
 	4500 1700 4700 1700
 Wire Wire Line
 	4500 1900 4700 1900
+Wire Wire Line
+	3200 5800 3400 5800
+Wire Wire Line
+	3200 5700 3400 5700
+Wire Wire Line
+	3200 5600 3400 5600
+Wire Wire Line
+	4400 6100 4600 6100
+Text GLabel 4600 6100 2    50   Input ~ 0
+Row_3_LED
+Text GLabel 3200 5600 0    50   Input ~ 0
+Row_2_LED
+Text GLabel 3200 5700 0    50   Input ~ 0
+Row_1_LED
+Text GLabel 3200 5800 0    50   Input ~ 0
+Row_0_LED
+Wire Wire Line
+	4600 4900 4400 4900
+Wire Wire Line
+	4600 4800 4400 4800
+Wire Wire Line
+	4600 4700 4400 4700
+Wire Wire Line
+	4600 4600 4400 4600
+Wire Wire Line
+	4600 5000 4400 5000
+Wire Wire Line
+	4400 5100 4600 5100
+Wire Wire Line
+	4600 5200 4400 5200
+Wire Wire Line
+	4400 5300 4600 5300
+Text GLabel 3200 5400 0    50   Input ~ 0
+Col_0_LED
+Text GLabel 3200 5500 0    50   Input ~ 0
+Col_1_LED
+Text GLabel 4600 5500 2    50   Input ~ 0
+Col_2_LED
+Text GLabel 4600 5600 2    50   Input ~ 0
+Col_3_LED
+Wire Wire Line
+	3200 5400 3400 5400
+Wire Wire Line
+	3400 5500 3200 5500
+Wire Wire Line
+	4600 5500 4400 5500
+Wire Wire Line
+	4600 5600 4400 5600
+Wire Wire Line
+	9400 1350 9400 2050
+Wire Wire Line
+	9900 1350 9900 2050
+Wire Wire Line
+	10400 1350 10400 2050
+Wire Wire Line
+	10900 1350 10900 2050
+$Comp
+L Device:R_Small R2
+U 1 1 5ECA9B18
+P 9300 1600
+F 0 "R2" H 9359 1646 50  0000 L CNN
+F 1 "825" H 9359 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9300 1600 50  0001 C CNN
+F 3 "~" H 9300 1600 50  0001 C CNN
+F 4 "C17839" H 9300 1600 50  0001 C CNN "LCSC"
+	1    9300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5ECAA5AE
+P 9800 1600
+F 0 "R6" H 9859 1646 50  0000 L CNN
+F 1 "825" H 9859 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9800 1600 50  0001 C CNN
+F 3 "~" H 9800 1600 50  0001 C CNN
+F 4 "C17839" H 9800 1600 50  0001 C CNN "LCSC"
+	1    9800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5ECAAB8D
+P 10300 1600
+F 0 "R7" H 10359 1646 50  0000 L CNN
+F 1 "825" H 10359 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10300 1600 50  0001 C CNN
+F 3 "~" H 10300 1600 50  0001 C CNN
+F 4 "C17839" H 10300 1600 50  0001 C CNN "LCSC"
+	1    10300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5ECAACAE
+P 10800 1600
+F 0 "R8" H 10859 1646 50  0000 L CNN
+F 1 "825" H 10859 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 10800 1600 50  0001 C CNN
+F 3 "~" H 10800 1600 50  0001 C CNN
+F 4 "C17839" H 10800 1600 50  0001 C CNN "LCSC"
+	1    10800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1700 9300 2100
+Connection ~ 9300 2100
+Wire Wire Line
+	9300 1500 9300 1350
+Wire Wire Line
+	9800 1350 9800 1500
+Wire Wire Line
+	9800 1700 9800 2100
+Connection ~ 9800 2100
+Wire Wire Line
+	10300 1350 10300 1500
+Wire Wire Line
+	10300 1700 10300 2100
+Connection ~ 10300 2100
+Wire Wire Line
+	10800 1350 10800 1500
+Wire Wire Line
+	10800 1700 10800 2100
+Connection ~ 10800 2100
+Wire Wire Line
+	10800 2100 10800 3100
 $EndSCHEMATC
