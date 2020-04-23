@@ -506,13 +506,13 @@ Switch Array
 $Comp
 L MCU_ST_STM32F0:STM32F042K6Tx U1
 U 1 1 5E434D15
-P 3900 5300
-F 0 "U1" H 4250 4300 50  0000 C CNN
-F 1 "STM32F042K6Tx" H 4500 4200 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 3500 4400 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 3900 5300 50  0001 C CNN
-F 4 "C69216" H 3900 5300 50  0001 C CNN "LCSC"
-	1    3900 5300
+P 3300 5650
+F 0 "U1" H 3650 4650 50  0000 C CNN
+F 1 "STM32F042K6Tx" H 3900 4550 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 2900 4750 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 3300 5650 50  0001 C CNN
+F 4 "C69216" H 3300 5650 50  0001 C CNN "LCSC"
+	1    3300 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -685,27 +685,27 @@ Connection ~ 1350 5500
 $Comp
 L power:+3.3V #PWR017
 U 1 1 5E5BC26D
-P 3900 4250
-F 0 "#PWR017" H 3900 4100 50  0001 C CNN
-F 1 "+3.3V" H 3915 4423 50  0000 C CNN
-F 2 "" H 3900 4250 50  0001 C CNN
-F 3 "" H 3900 4250 50  0001 C CNN
-	1    3900 4250
+P 3300 4600
+F 0 "#PWR017" H 3300 4450 50  0001 C CNN
+F 1 "+3.3V" H 3315 4773 50  0000 C CNN
+F 2 "" H 3300 4600 50  0001 C CNN
+F 3 "" H 3300 4600 50  0001 C CNN
+	1    3300 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 4400 3800 4300
+	3200 4750 3200 4650
 Wire Wire Line
-	3800 4300 3900 4300
+	3200 4650 3300 4650
 Wire Wire Line
-	3900 4300 3900 4250
+	3300 4650 3300 4600
 Wire Wire Line
-	3900 4400 3900 4300
-Connection ~ 3900 4300
+	3300 4750 3300 4650
+Connection ~ 3300 4650
 Wire Wire Line
-	4000 4400 4000 4300
+	3400 4750 3400 4650
 Wire Wire Line
-	4000 4300 3900 4300
+	3400 4650 3300 4650
 $Comp
 L power:GND #PWR04
 U 1 1 5E5ABFD3
@@ -718,67 +718,67 @@ F 3 "" H 1350 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 6300 3800 6350
+	3200 6650 3200 6700
 $Comp
 L power:GND #PWR016
 U 1 1 5E5EE4F0
-P 3850 6400
-F 0 "#PWR016" H 3850 6150 50  0001 C CNN
-F 1 "GND" H 3855 6227 50  0000 C CNN
-F 2 "" H 3850 6400 50  0001 C CNN
-F 3 "" H 3850 6400 50  0001 C CNN
-	1    3850 6400
+P 3250 6750
+F 0 "#PWR016" H 3250 6500 50  0001 C CNN
+F 1 "GND" H 3255 6577 50  0000 C CNN
+F 2 "" H 3250 6750 50  0001 C CNN
+F 3 "" H 3250 6750 50  0001 C CNN
+	1    3250 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 6350 3850 6400
+	3250 6700 3250 6750
 Wire Wire Line
-	3900 6300 3900 6350
+	3300 6650 3300 6700
 Wire Wire Line
-	3900 6350 3850 6350
+	3300 6700 3250 6700
 Wire Wire Line
-	3800 6350 3850 6350
-Connection ~ 3850 6350
+	3200 6700 3250 6700
+Connection ~ 3250 6700
 Wire Wire Line
-	3400 4600 3250 4600
+	2800 4950 2650 4950
 Wire Wire Line
-	3250 4300 3800 4300
-Connection ~ 3800 4300
+	2650 4650 3200 4650
+Connection ~ 3200 4650
 Wire Wire Line
-	3250 4600 3250 4550
+	2650 4950 2650 4900
 Wire Wire Line
-	3250 4300 3250 4350
-Text GLabel 4600 5700 2    50   BiDi ~ 0
+	2650 4650 2650 4700
+Text GLabel 4000 6050 2    50   BiDi ~ 0
 DN
-Text GLabel 4600 5800 2    50   BiDi ~ 0
+Text GLabel 4000 6150 2    50   BiDi ~ 0
 DP
 Wire Wire Line
-	4600 5700 4400 5700
+	4000 6050 3800 6050
 Wire Wire Line
-	4400 5800 4600 5800
-Text GLabel 4600 5300 2    50   Input ~ 0
+	3800 6150 4000 6150
+Text GLabel 4000 5650 2    50   Input ~ 0
 Row_3_Key
-Text GLabel 4600 5200 2    50   Input ~ 0
+Text GLabel 4000 5550 2    50   Input ~ 0
 Row_2_Key
-Text GLabel 4600 5100 2    50   Input ~ 0
+Text GLabel 4000 5450 2    50   Input ~ 0
 Row_1_Key
-Text GLabel 4600 5000 2    50   Input ~ 0
+Text GLabel 4000 5350 2    50   Input ~ 0
 Row_0_Key
-Text GLabel 4600 4600 2    50   Input ~ 0
+Text GLabel 4000 4950 2    50   Input ~ 0
 Col_0_Key
-Text GLabel 4600 4800 2    50   Input ~ 0
+Text GLabel 4000 5150 2    50   Input ~ 0
 Col_2_Key
-Text GLabel 4600 4900 2    50   Input ~ 0
+Text GLabel 4000 5250 2    50   Input ~ 0
 Col_3_Key
-Text GLabel 4600 4700 2    50   Input ~ 0
+Text GLabel 4000 5050 2    50   Input ~ 0
 Col_1_Key
 Wire Wire Line
-	4400 5900 4600 5900
+	3800 6250 4000 6250
 Wire Wire Line
-	4400 6000 4600 6000
-Text GLabel 4600 5900 2    50   BiDi ~ 0
+	3800 6350 4000 6350
+Text GLabel 4000 6250 2    50   BiDi ~ 0
 SWDIO
-Text GLabel 4600 6000 2    50   Input ~ 0
+Text GLabel 4000 6350 2    50   Input ~ 0
 SWCLK
 Text Notes 2050 2550 2    50   ~ 0
 Programming Connector
@@ -1312,13 +1312,13 @@ $EndComp
 $Comp
 L Device:R_Small R3
 U 1 1 5EF87192
-P 3250 4450
-F 0 "R3" V 3150 4400 50  0000 C CNN
-F 1 "5k1" V 3150 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3250 4450 50  0001 C CNN
-F 3 "~" H 3250 4450 50  0001 C CNN
-F 4 "C27834" V 3250 4450 50  0001 C CNN "LCSC"
-	1    3250 4450
+P 2650 4800
+F 0 "R3" V 2550 4750 50  0000 C CNN
+F 1 "5k1" V 2550 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2650 4800 50  0001 C CNN
+F 3 "~" H 2650 4800 50  0001 C CNN
+F 4 "C27834" V 2650 4800 50  0001 C CNN "LCSC"
+	1    2650 4800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1327,7 +1327,7 @@ U 1 1 5EAAD320
 P 1450 1300
 F 0 "J2" H 1507 1767 50  0000 C CNN
 F 1 "USB_B_Mini" H 1507 1676 50  0000 C CNN
-F 2 "digikey-footprints:USB_Mini_B_Female_548190519" H 1600 1250 50  0001 C CNN
+F 2 "usb:USB_Mini_B_Female_548190519" H 1600 1250 50  0001 C CNN
 F 3 "~" H 1600 1250 50  0001 C CNN
 	1    1450 1300
 	1    0    0    -1  
@@ -1424,54 +1424,42 @@ Wire Wire Line
 	4500 1700 4700 1700
 Wire Wire Line
 	4500 1900 4700 1900
-Wire Wire Line
-	3200 5800 3400 5800
-Wire Wire Line
-	3200 5700 3400 5700
-Wire Wire Line
-	3200 5600 3400 5600
-Wire Wire Line
-	4400 6100 4600 6100
-Text GLabel 4600 6100 2    50   Input ~ 0
+Text GLabel 2600 6150 0    50   Input ~ 0
 Row_3_LED
-Text GLabel 3200 5600 0    50   Input ~ 0
+Text GLabel 2600 6250 0    50   Input ~ 0
 Row_2_LED
-Text GLabel 3200 5700 0    50   Input ~ 0
+Text GLabel 2600 6350 0    50   Input ~ 0
 Row_1_LED
-Text GLabel 3200 5800 0    50   Input ~ 0
+Text GLabel 2600 6450 0    50   Input ~ 0
 Row_0_LED
 Wire Wire Line
-	4600 4900 4400 4900
+	4000 5250 3800 5250
 Wire Wire Line
-	4600 4800 4400 4800
+	4000 5150 3800 5150
 Wire Wire Line
-	4600 4700 4400 4700
+	4000 5050 3800 5050
 Wire Wire Line
-	4600 4600 4400 4600
+	4000 4950 3800 4950
 Wire Wire Line
-	4600 5000 4400 5000
+	4000 5350 3800 5350
 Wire Wire Line
-	4400 5100 4600 5100
+	3800 5450 4000 5450
 Wire Wire Line
-	4600 5200 4400 5200
+	4000 5550 3800 5550
 Wire Wire Line
-	4400 5300 4600 5300
-Text GLabel 3200 5400 0    50   Input ~ 0
+	3800 5650 4000 5650
+Text GLabel 2600 5750 0    50   Input ~ 0
 Col_0_LED
-Text GLabel 3200 5500 0    50   Input ~ 0
+Text GLabel 2600 5850 0    50   Input ~ 0
 Col_1_LED
-Text GLabel 4600 5500 2    50   Input ~ 0
+Text GLabel 4000 5850 2    50   Input ~ 0
 Col_2_LED
-Text GLabel 4600 5600 2    50   Input ~ 0
+Text GLabel 4000 5950 2    50   Input ~ 0
 Col_3_LED
 Wire Wire Line
-	3200 5400 3400 5400
+	4000 5850 3800 5850
 Wire Wire Line
-	3400 5500 3200 5500
-Wire Wire Line
-	4600 5500 4400 5500
-Wire Wire Line
-	4600 5600 4400 5600
+	4000 5950 3800 5950
 Wire Wire Line
 	9400 1350 9400 2050
 Wire Wire Line
@@ -1550,4 +1538,128 @@ Wire Wire Line
 Connection ~ 10800 2100
 Wire Wire Line
 	10800 2100 10800 3100
+$Comp
+L dk_Rotary-Potentiometers-Rheostats:P120PK-Y25BR10K POT1
+U 1 1 5EA30879
+P 5150 4050
+F 0 "POT1" V 4700 4150 60  0000 L CNN
+F 1 "P120PK-Y25BR10K" V 4800 4150 60  0000 L CNN
+F 2 "pot:Potentiometer_P120PK-Y25BR10K" H 5350 4250 60  0001 L CNN
+F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 5350 4350 60  0001 L CNN
+F 4 "987-1710-ND" H 5350 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "P120PK-Y25BR10K" H 5350 4550 60  0001 L CNN "MPN"
+F 6 "Potentiometers, Variable Resistors" H 5350 4650 60  0001 L CNN "Category"
+F 7 "Rotary Potentiometers, Rheostats" H 5350 4750 60  0001 L CNN "Family"
+F 8 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 5350 4850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/tt-electronics-bi/P120PK-Y25BR10K/987-1710-ND/5957454" H 5350 4950 60  0001 L CNN "DK_Detail_Page"
+F 10 "POT 10K OHM 1/20W PLASTIC LINEAR" H 5350 5050 60  0001 L CNN "Description"
+F 11 "TT Electronics/BI" H 5350 5150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5350 5250 60  0001 L CNN "Status"
+	1    5150 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 5850 2600 5850
+Wire Wire Line
+	2600 5750 2800 5750
+Wire Wire Line
+	2600 6450 2800 6450
+Wire Wire Line
+	2800 6350 2600 6350
+Wire Wire Line
+	2600 6250 2800 6250
+Wire Wire Line
+	2600 6150 2800 6150
+Text GLabel 2550 6050 0    50   Input ~ 0
+POT1
+Wire Wire Line
+	2550 6050 2800 6050
+$Comp
+L dk_Rotary-Potentiometers-Rheostats:P120PK-Y25BR10K POT2
+U 1 1 5EB05CCF
+P 6350 4050
+F 0 "POT2" V 5900 4150 60  0000 L CNN
+F 1 "P120PK-Y25BR10K" V 6000 4150 60  0000 L CNN
+F 2 "pot:Potentiometer_P120PK-Y25BR10K" H 6550 4250 60  0001 L CNN
+F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 6550 4350 60  0001 L CNN
+F 4 "987-1710-ND" H 6550 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "P120PK-Y25BR10K" H 6550 4550 60  0001 L CNN "MPN"
+F 6 "Potentiometers, Variable Resistors" H 6550 4650 60  0001 L CNN "Category"
+F 7 "Rotary Potentiometers, Rheostats" H 6550 4750 60  0001 L CNN "Family"
+F 8 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P120.pdf" H 6550 4850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/tt-electronics-bi/P120PK-Y25BR10K/987-1710-ND/5957454" H 6550 4950 60  0001 L CNN "DK_Detail_Page"
+F 10 "POT 10K OHM 1/20W PLASTIC LINEAR" H 6550 5050 60  0001 L CNN "Description"
+F 11 "TT Electronics/BI" H 6550 5150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6550 5250 60  0001 L CNN "Status"
+	1    6350 4050
+	0    1    1    0   
+$EndComp
+Text GLabel 2550 5950 0    50   Input ~ 0
+POT2
+Wire Wire Line
+	2550 5950 2800 5950
+Text GLabel 6850 4050 2    50   Input ~ 0
+POT2
+Text GLabel 5650 4050 2    50   Input ~ 0
+POT1
+Wire Wire Line
+	5650 4050 5500 4050
+Wire Wire Line
+	6850 4050 6700 4050
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5EB9A590
+P 5750 3350
+F 0 "#PWR0103" H 5750 3200 50  0001 C CNN
+F 1 "+3.3V" H 5765 3523 50  0000 C CNN
+F 2 "" H 5750 3350 50  0001 C CNN
+F 3 "" H 5750 3350 50  0001 C CNN
+	1    5750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5EB9AB2B
+P 5750 4800
+F 0 "#PWR0104" H 5750 4550 50  0001 C CNN
+F 1 "GND" H 5755 4627 50  0000 C CNN
+F 2 "" H 5750 4800 50  0001 C CNN
+F 3 "" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4800 6350 4800
+Wire Wire Line
+	6350 4800 6350 4650
+Wire Wire Line
+	5750 4800 5150 4800
+Wire Wire Line
+	5150 4800 5150 4650
+Connection ~ 5750 4800
+Wire Wire Line
+	5150 3600 5150 3350
+Wire Wire Line
+	5150 3350 5750 3350
+Wire Wire Line
+	5750 3350 6350 3350
+Wire Wire Line
+	6350 3350 6350 3600
+Connection ~ 5750 3350
+Text Notes 6000 3100 2    50   ~ 0
+Potentiometers
+Wire Wire Line
+	4900 4350 4900 4650
+Wire Wire Line
+	4900 4650 5150 4650
+Connection ~ 5150 4650
+Wire Wire Line
+	5150 4650 5150 4600
+Wire Wire Line
+	6100 4350 6100 4650
+Wire Wire Line
+	6100 4650 6350 4650
+Connection ~ 6350 4650
+Wire Wire Line
+	6350 4650 6350 4600
 $EndSCHEMATC
